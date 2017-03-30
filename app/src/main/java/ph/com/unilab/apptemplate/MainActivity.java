@@ -22,6 +22,8 @@ public class MainActivity extends AppCompatActivity {
 
         ButterKnife.bind(this);
 
+        Log.e("I added this line", "for testing");
+
         signaturePad.clear();
     }
 
