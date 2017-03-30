@@ -2,6 +2,7 @@ package ph.com.unilab.apptemplate;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Button;
 
 import com.github.gcacace.signaturepad.views.SignaturePad;
@@ -20,6 +21,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         ButterKnife.bind(this);
+
+        Log.e("I added this line", "for testing");
 
         signaturePad.clear();
     }
